@@ -1,0 +1,20 @@
+# Ignore compiled executables (no extension on Linux/Mac)
+*
+!*/
+!*.*
+
+# If you are on Windows, ignore .exe files
+*.exe
+
+# Ignore Object files
+*.o
+*.obj
+
+# Ignore Makefiles (if you don't want them in the repo)
+Makefile
+makefile
+*.mk
+
+# Optional: Ignore VS Code or system files
+.vscode/
+.DS_Store
